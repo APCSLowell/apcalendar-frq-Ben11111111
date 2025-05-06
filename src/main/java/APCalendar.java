@@ -14,7 +14,7 @@
   { 
   int count= 0;
   for(int i = year1; i <= year2;i++){
-    if(isLeapYear(i)
+    if(isLeapYear(i))
       count++;
     }
     return count;
